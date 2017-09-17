@@ -1,0 +1,47 @@
+.gridwrapper {
+  width: 100%;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  background-color: #696969;
+}
+
+.card {
+  position: relative;
+  display: inline-block;
+  width: 250px;
+  height: 200px;
+  margin: 30px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.img-wrapper {
+  position: absolute;
+  padding-top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-block;
+  width: auto;
+  height: auto;
+}
+
+h1.skill {
+  top: 80%;
+  transform: translateY(-50%);
+  position: relative;
+  display: inline-block;
+  color: white;
+  font-family: monospace;
+  font-size: 18px;
+}
+
+h2.header {
+  text-align: center;
+  background-color: #696969;
+  font-family: 'Open Sans', sans-serif !important;
+  margin: 0px;
+  padding-top: 42px;
+  color: white;
+  font-size: 54px;
+  font-weight: 100;
+}

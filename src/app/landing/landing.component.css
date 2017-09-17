@@ -1,0 +1,70 @@
+.landing {
+  background-image: url("../../assets/main_background.jpg");
+      /* Full height */
+    /*height: 100%; !important
+
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100vh;
+    opacity: 0.7;
+}
+.center {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+#name {
+  font-size: 48px;
+  background-color: black;
+  padding: 16px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  margin: 0px;
+}
+
+#text {
+  font-size: 26px;
+  background-color: black;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-weight: 100;
+}
+
+
+@media (max-width: 812px) {
+    #name {
+      font-size: 36px;
+
+    }
+    #text {
+      font-size: 22px;
+    }
+}
+@media (max-width: 480px) {
+    #name {
+      font-size: 28px;
+    }
+    #text {
+      padding-left: 12px;
+      padding-right: 12px;
+    }
+}
+
+@media (max-width: 358px) {
+    #name {
+      font-size: 28px;
+    }
+    #text {
+      visibility: hidden;
+    }
+}

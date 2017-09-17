@@ -1,0 +1,7 @@
+<h2 class="header">Contact</h2>
+<div class="gridwrapper">
+  <div *ngFor="let link of links" class="card">
+    <a href="{{link.link}}" target="_blank" title="{{link.name}}"> <img src="{{link.logo}}" alt="{{link.name}}" class="img-wrapper"></a> 
+    <h1 class="skill">{{link.name}}</h1>
+  </div>
+</div>
