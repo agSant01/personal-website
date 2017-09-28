@@ -1,0 +1,21 @@
+<div class="col">
+  <h2 class="header">Experience</h2>
+  <hr class="container">
+</div>
+<div class="section">
+  <div *ngFor="let experience of experiences" class="experience">
+    <div class="work-name">
+      <div class="date"><b>{{experience.date}}</b></div>
+      <div class="name"><b>{{experience.work}}</b></div>
+      <ul class="positions">
+        <li class="positions" *ngFor="let position of experience.positions"><b>{{position}}</b></li>
+      </ul>
+
+      <div class="projects" *ngFor="let project of experience.projects">
+        <div class="project-name"><b>{{project.name}}</b></div>
+        <ul>
+          <li *ngFor="let bul of project.bullets">{{bul}}</li>
+        </ul>
+      </div>
+  </div>
+</div>

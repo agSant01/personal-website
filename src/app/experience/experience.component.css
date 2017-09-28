@@ -1,0 +1,127 @@
+.section {
+  width: 100%;
+  padding: 1px 0px 20px 0px;
+  background-color: #fffbf4;
+}
+.courses {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-family: serif, cursive, monospace;
+  font-style: oblique;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.col {
+  background-color: #fffbf4;
+}
+.date {
+  float: right;
+  margin: 0px auto 0px auto;
+  width: auto;
+  font-family: Times serif;
+}
+.experience {
+  margin: 60px auto 60px auto;
+  width: 55%;
+  font-family: 'Open Sans', sans-serif !important;
+}
+.projects {
+  margin: 10px auto 10px auto;
+  padding-left: 24px;
+}
+.project-name {
+  font-family: Helvetica, sans-serif;
+}
+ul.positions {
+  padding: 0px;
+}
+
+li.positions {
+  display: inline;
+  padding: 8px;
+  padding-left: 0px;
+  font-family: serif;
+}
+
+h2.header {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif !important;
+  margin: 0px;
+  padding-top: 42px;
+  color: #696969;
+  font-size: 54px;
+  font-weight: 100;
+}
+
+ul {
+  margin: 0px auto 10px auto !important;
+  width: auto;
+  padding: 0px 20px;
+}
+
+li {
+  margin: 4px auto 4px auto;
+  font-style: italic;
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.name {
+  font-size: 18px;
+  padding-right: 14px;
+}
+
+.container {
+  width: 60%;
+  margin: 0px auto 0px auto;
+  border-color: #fffbf4
+}
+
+@media (max-width: 1000px) {
+  .optional {
+    display: none;
+  }
+  .name {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 812px) {
+    h2.header {
+      font-size: 36px;
+    }
+    .experience {
+      width: 60vw;
+      font-size: 16px;
+    }
+    .optional {
+      display: inline;
+    }
+    .date {
+      position: relative;
+      float: none;
+      padding-bottom: 4px;
+      font-size: 14px;
+    }
+}
+@media (max-width: 545px) {
+  .container {
+    width: 75%;
+    margin: 0px auto 0px auto;
+  }
+}
+
+@media (max-width: 480px) {
+    .experience {
+      width: 75vw;
+      font-size: 16px;
+    }
+}
+
+@media (max-width: 358px) {
+    .school {
+      width: 80vw;
+      font-size: 14x;
+    }
+}

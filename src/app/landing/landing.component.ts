@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
+
+import { ConstantsService } from '../constanst.service'
+
 @Component({
   selector: 'landing',
   templateUrl: 'landing.component.html',
@@ -7,10 +10,11 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class LandingComponent implements OnInit {
-
-  constructor() { }
+  resume: string;
+  constructor(private constants: ConstantsService) { }
 
   ngOnInit() {
+    this.resume = this.constants.getResume();
   }
 
 }

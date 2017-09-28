@@ -1,0 +1,23 @@
+<div class="col">
+  <h2 class="header">Education</h2>
+  <hr class="container">
+</div>
+<div class="section">
+  <div *ngFor="let univ of university" class="school">
+    <div class="school-name">
+      <span id="name">
+        <b>{{univ.name}}</b>
+      </span>
+      <div class="graddate">
+          <b>
+          <span class="optional">Expected Graduation: </span>
+          {{univ.graddate}}
+        </b>
+      </div>
+      <div class="bs"><i>{{univ.bs}}</i></div>
+      <p class="courses"><b>Comp. Eng. Related Courses: </b></p>
+      <ul>
+        <li *ngFor="let course of univ.courses">{{course}}</li>
+      </ul>
+  </div>
+</div>

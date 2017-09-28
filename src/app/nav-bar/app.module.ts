@@ -8,6 +8,8 @@ import {
 
 import { AppComponent } from './app.component';
 import { LandingComponent } from "../landing/landing.component";
+import { EducationComponent } from "../education/education.component"
+import { ExperienceComponent } from "../experience/experience.component"
 import { SkillsComponent } from "../skills/skills.component";
 import { ConstantsService } from '../constanst.service'
 @NgModule({
@@ -17,6 +19,8 @@ import { ConstantsService } from '../constanst.service'
   declarations: [
     AppComponent,
     LandingComponent,
+    EducationComponent,
+    ExperienceComponent,
     SkillsComponent
   ],
   imports: [

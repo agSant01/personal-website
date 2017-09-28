@@ -1,17 +1,16 @@
-.landing {
-  background-image: url("../../assets/main_background.jpg");
-      /* Full height */
-    /*height: 100%; !important
+.banner {
+  background-color: black;
+  float: left;
+  color: white;
+  margin-top: 90px;
+  padding: 10px 20px 10px 20px;
+  z-index: 20;
+  font-family: Times, serif;
+  font-style: italic;
+}
 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    height: 100vh;
-    opacity: 0.7;
+.banner:hover {
+  background-color: #d2d2d2
 }
 .center {
   text-align: center;
@@ -22,6 +21,23 @@
   transform: translate(-50%, -50%);
   font-family: 'Open Sans', sans-serif;
   color: white;
+}
+.landing {
+  background-image: url("../../assets/main_background.jpg");
+  /* Full height */
+  /*height: 100%; !important
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 100vh;
+  opacity: 0.7;
+}
+.banner>a {
+  color: white;
+  border-bottom: none;
 }
 #name {
   font-size: 48px;
