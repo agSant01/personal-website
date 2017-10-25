@@ -1,6 +1,6 @@
 .section {
   width: 100%;
-  padding: 20px 0px 20px 0px;
+  padding: 1px 0px 20px 0px;
   background-color: #fffbf4;
 }
 
@@ -45,8 +45,9 @@ h2.header {
   text-align: center;
   font-family: 'Open Sans', sans-serif !important;
   margin: 0px;
-  margin-top: 42px;
+  padding-top: 42px;
   color: #696969;
+  background-color: #fffbf4;
   font-size: 54px;
   font-weight: 100;
 }

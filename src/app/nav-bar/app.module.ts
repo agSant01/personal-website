@@ -10,7 +10,8 @@ import { AppComponent } from './app.component';
 import { LandingComponent } from "../landing/landing.component";
 import { EducationComponent } from "../education/education.component"
 import { ExperienceComponent } from "../experience/experience.component"
-import { SkillsComponent } from "../skills/skills.component";
+import { SkillsComponent } from "../skills/skills.component"
+import { ContactComponent } from "../contact/contact.component";
 import { ConstantsService } from '../constanst.service'
 @NgModule({
   exports: [
@@ -21,7 +22,8 @@ import { ConstantsService } from '../constanst.service'
     LandingComponent,
     EducationComponent,
     ExperienceComponent,
-    SkillsComponent
+    SkillsComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

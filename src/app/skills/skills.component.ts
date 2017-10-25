@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { LINKS } from '../data-types/links'
+import { SKILLS } from '../data-types/skills'
 
 import { ConstantsService } from '../constanst.service'
 
@@ -10,12 +10,11 @@ import { ConstantsService } from '../constanst.service'
   styleUrls: ['./skills.component.css']
 })
 export class SkillsComponent implements OnInit {
-  links: LINKS[];
+  skills: SKILLS[];
 
   constructor(private constants: ConstantsService) { }
 
   ngOnInit() {
-      this.links = this.constants.getLinks();
+      this.skills = this.constants.getSkills();
   }
-
 }
