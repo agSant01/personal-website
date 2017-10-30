@@ -122,22 +122,22 @@ var ConstantsService = (function () {
                 group: [
                     {
                         skill: "SQLite",
-                        img: "",
+                        img: "assets/skills/android_dev/sqlite.png",
                         stars: "3"
                     },
                     {
-                        skill: "Fabric",
-                        img: "",
+                        skill: "Fabric Analytics",
+                        img: "assets/skills/android_dev/fabric_analitics.png",
                         stars: "3"
                     },
                     {
                         skill: "User Xperience",
-                        img: "",
+                        img: "assets/skills/android_dev/ux-design.png",
                         stars: "5"
                     },
                     {
                         skill: "Android Studio",
-                        img: "",
+                        img: "assets/skills/android_dev/android_studio.png",
                         stars: "4"
                     }
                 ]
@@ -147,27 +147,27 @@ var ConstantsService = (function () {
                 group: [
                     {
                         skill: "Java",
-                        img: "",
+                        img: "assets/skills/programming_lang/Java-logo.png",
                         stars: "4"
                     },
                     {
                         skill: "C",
-                        img: "",
+                        img: "assets/skills/programming_lang/C.png",
                         stars: "3"
                     },
                     {
                         skill: "TypeScript",
-                        img: "",
+                        img: "assets/skills/programming_lang/ts.png",
                         stars: "3"
                     },
                     {
                         skill: "JavaScript",
-                        img: "",
-                        stars: "2.5"
+                        img: "assets/skills/programming_lang/js_logo.png",
+                        stars: "2"
                     },
                     {
                         skill: "SQL",
-                        img: "",
+                        img: "assets/skills/programming_lang/logo-sql.png",
                         stars: "3"
                     }
                 ]
@@ -176,39 +176,39 @@ var ConstantsService = (function () {
                 name: "Technical",
                 group: [
                     {
-                        skill: "Linux/Ubuntu (+2 years)",
-                        img: "",
+                        skill: "Ubuntu (+2 years)",
+                        img: "assets/skills/technical/Ubuntu.png",
                         stars: "4"
                     },
                     {
                         skill: "GitHub",
-                        img: "",
+                        img: "assets/PNG/GitHub-Mark-120px-plus.png",
                         stars: "5"
                     },
                     {
                         skill: "Terminal",
-                        img: "",
+                        img: "assets/skills/technical/terminal.png",
                         stars: "3"
                     },
                     {
-                        skill: "Firebase",
-                        img: "",
-                        stars: "4.5"
-                    },
-                    {
-                        skill: "Software Design",
-                        img: "",
-                        stars: "3.5"
-                    },
-                    {
-                        skill: "Product Development",
-                        img: "",
+                        skill: "Firebase Cloud Services",
+                        img: "assets/skills/technical/firebase.ico",
                         stars: "4"
                     },
                     {
-                        skill: "Database Design Concepts",
-                        img: "",
-                        stars: "2.5"
+                        skill: "Software Design",
+                        img: "assets/skills/technical/design.png",
+                        stars: "3"
+                    },
+                    {
+                        skill: "Product Development",
+                        img: "assets/skills/technical/development.png",
+                        stars: "4"
+                    },
+                    {
+                        skill: "Database Design",
+                        img: "assets/skills/programming_lang/logo-sql.png",
+                        stars: "3"
                     }
                 ]
             }
@@ -437,7 +437,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, ".banner {\n  background-color: black;\n  float: left;\n  color: white;\n  margin-top: 90px;\n  padding: 10px 20px 10px 20px;\n  z-index: 20;\n  font-family: Times, serif;\n  font-style: italic;\n}\n\n.banner:hover {\n  background-color: #d2d2d2\n}\n.center {\n  text-align: center;\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  -webkit-transform: translate(-50%, -50%);\n  transform: translate(-50%, -50%);\n  font-family: 'Open Sans', sans-serif;\n  color: white;\n}\n.landing {\n  background-image: url(" + __webpack_require__("../../../../../src/assets/main_background.jpg") + ");\n  /* Full height */\n  /*height: 100%; !important\n  /* Create the parallax scrolling effect */\n  background-attachment: fixed;\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: cover;\n\n  height: 100vh;\n  opacity: 0.7;\n}\n.banner>a {\n  color: white;\n  border-bottom: none;\n}\n#name {\n  font-size: 48px;\n  background-color: black;\n  padding: 16px;\n  padding-bottom: 12px;\n  padding-top: 12px;\n  margin: 0px;\n}\n\n#text {\n  font-size: 26px;\n  background-color: black;\n  margin-left: 15%;\n  margin-right: 15%;\n  font-weight: 100;\n}\n\n\n@media (max-width: 812px) {\n    #name {\n      font-size: 36px;\n\n    }\n    #text {\n      font-size: 22px;\n    }\n}\n@media (max-width: 480px) {\n    #name {\n      font-size: 28px;\n    }\n    #text {\n      padding-left: 12px;\n      padding-right: 12px;\n    }\n}\n\n@media (max-width: 358px) {\n    #name {\n      font-size: 28px;\n    }\n    #text {\n      visibility: hidden;\n    }\n}\n", ""]);
+exports.push([module.i, ".banner {\n  background-color: black;\n  float: left;\n  color: white;\n  margin-top: 90px;\n  padding: 10px 20px 10px 20px;\n  z-index: 20;\n  font-family: Times, serif;\n  font-style: italic;\n}\n\n.banner:hover {\n  background-color: #d2d2d2\n}\n.center {\n  text-align: center;\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  -webkit-transform: translate(-50%, -50%);\n  transform: translate(-50%, -50%);\n  font-family: 'Open Sans', sans-serif;\n  color: white;\n}\n.landing {\n  background-image: url(" + __webpack_require__("../../../../../src/assets/main_background.jpg") + ");\n  /* Full height */\n  /*height: 100%; !important\n  /* Create the parallax scrolling effect */\n  background-attachment: fixed;\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: cover;\n\n  height: 100vh;\n  opacity: 0.7;\n}\n.banner>a {\n  color: white;\n  border-bottom: none;\n}\n#name {\n  font-size: 48px;\n  background-color: black;\n  padding: 16px;\n  padding-bottom: 12px;\n  padding-top: 12px;\n  margin: 0px;\n}\n\n#text {\n  font-size: 26px;\n  background-color: black;\n  margin-left: 15%;\n  margin-right: 15%;\n  font-weight: 100;\n}\n\n\n@media (max-width: 812px) {\n    #name {\n      font-size: 42px;\n\n    }\n    #text {\n      font-size: 22px;\n    }\n}\n@media (max-width: 480px) {\n    #name {\n      font-size: 42px;\n    }\n    #text {\n      padding-left: 12px;\n      padding-right: 12px;\n    }\n}\n\n@media (max-width: 358px) {\n    #name {\n      font-size: 42px;\n    }\n    #text {\n      visibility: hidden;\n    }\n}\n", ""]);
 
 // exports
 
@@ -450,7 +450,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/landing/landing.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"landing\">\n  <div class=\"banner\">\n    <a href=\"{{resume}}\" target=\"_blank\" type=\"normal\">Printed Resume</a>\n  </div>\n  <div class=\"center\">\n      <h1 id=\"name\">Gabriel Santiago</h1>\n      <div id=\"text\">Interactive Resume</div>\n  </div>\n</div>\n"
+module.exports = "<div class=\"landing\">\n  <div class=\"center\">\n      <h1 id=\"name\">Gabriel Santiago</h1>\n      <div id=\"text\">Interactive Resume</div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -566,12 +566,14 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__skills_skills_component__ = __webpack_require__("../../../../../src/app/skills/skills.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__contact_contact_component__ = __webpack_require__("../../../../../src/app/contact/contact.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__constanst_service__ = __webpack_require__("../../../../../src/app/constanst.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__skills_stars_component__ = __webpack_require__("../../../../../src/app/skills/stars.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -598,7 +600,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_5__education_education_component__["a" /* EducationComponent */],
             __WEBPACK_IMPORTED_MODULE_6__experience_experience_component__["a" /* ExperienceComponent */],
             __WEBPACK_IMPORTED_MODULE_7__skills_skills_component__["a" /* SkillsComponent */],
-            __WEBPACK_IMPORTED_MODULE_8__contact_contact_component__["a" /* ContactComponent */]
+            __WEBPACK_IMPORTED_MODULE_8__contact_contact_component__["a" /* ContactComponent */],
+            __WEBPACK_IMPORTED_MODULE_10__skills_stars_component__["a" /* StarsComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -621,7 +624,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, ".gridwrapper {\n  width: 100%;\n  padding: 40px 0px 40px 0px;\n  margin: 0px auto 0px auto;\n  text-align: center;\n  background-color: #fffbf4;\n  vertical-align: top;\n}\n.card {\n  position: relative;\n  vertical-align: top;\n  display: inline-block;\n  width: 250px;\n  height: auto;\n  margin: 10px;\n  text-align: center;\n  overflow: hidden;\n}\n.container {\n  width: 60%;\n  margin: 0px auto 0px auto;\n  border-color: #fffbf4\n}\n.col {\n   background-color: #fffbf4;\n}\n.img-wrapper {\n  position: absolute;\n  padding-top: 10%;\n  left: 50%;\n  -webkit-transform: translateX(-50%);\n          transform: translateX(-50%);\n  display: inline-block;\n  width: 100px;\n  height: 100px;\n}\n.skill {\n  text-align: left;\n  height: 20px;\n  margin: 1px 0px 18px 0px;\n}\n.skillname {\n  margin: auto;\n  padding-top: 8px;\n  padding-bottom: 8px;\n}\nimg {\n  float: left;\n  margin: 0px 10px 0px 10px;\n  height: 30px;\n  width: 30px;\n}\nh1.group {\n  top: 80%;\n  -webkit-transform: translateY(-50%);\n          transform: translateY(-50%);\n  position: relative;\n  display: inline-block;\n  color: black;\n  font-family: monospace;\n  font-size: 18px;\n  margin-bottom: 0px;\n}\nh2.header {\n  text-align: center;\n  background-color: #fffbf4;\n  font-family: 'Open Sans', sans-serif !important;\n  margin: 0px;\n  padding-top: 42px;\n  color: #696969;\n  font-size: 54px;\n  font-weight: 100;\n}\n@media (max-width: 812px) {\n    h2.header {\n      font-size: 36px;\n    }\n}\n@media (max-width: 545px) {\n  .container {\n    width: 75%;\n    margin: 0px auto 0px auto;\n  }\n}\n@media (max-width: 480px) {\n    .experience {\n      width: 75vw;\n      font-size: 16px;\n    }\n}\n", ""]);
+exports.push([module.i, ".gridwrapper {\n  width: 100%;\n  padding: 40px 0px 40px 0px;\n  margin: 0px auto 0px auto;\n  text-align: center;\n  background-color: #fffbf4;\n  vertical-align: top;\n}\n.card {\n  position: relative;\n  vertical-align: top;\n  display: inline-block;\n  width: 280px;\n  height: auto;\n  margin: 15px;\n  text-align: center;\n  overflow: hidden;\n}\n.container {\n  width: 60%;\n  margin: 0px auto 0px auto;\n  border-color: #fffbf4\n}\n.col {\n   background-color: #fffbf4;\n}\n.img-wrapper {\n  position: absolute;\n  padding-top: 10%;\n  left: 50%;\n  -webkit-transform: translateX(-50%);\n          transform: translateX(-50%);\n  display: inline-block;\n  width: 100px;\n  height: 100px;\n}\n.skill {\n  text-align: left;\n  height: 20px;\n  margin: 1px 0px 18px 0px;\n}\n.skillname {\n  margin: auto;\n  padding-top: 8px;\n  padding-bottom: 8px;\n}\n.stars {\n  float: right;\n}\n\nimg {\n  float: left;\n  margin: 0px 10px 0px 10px;\n  height: 30px;\n  width: 30px;\n}\nh1.group {\n  top: 80%;\n  -webkit-transform: translateY(-50%);\n          transform: translateY(-50%);\n  position: relative;\n  display: inline-block;\n  color: black;\n  font-family: monospace;\n  font-size: 18px;\n  margin-bottom: 0px;\n}\nh2.header {\n  text-align: center;\n  background-color: #fffbf4;\n  font-family: 'Open Sans', sans-serif !important;\n  margin: 0px;\n  padding-top: 42px;\n  color: #696969;\n  font-size: 54px;\n  font-weight: 100;\n}\n@media (max-width: 812px) {\n    h2.header {\n      font-size: 36px;\n    }\n}\n@media (max-width: 545px) {\n  .container {\n    width: 75%;\n    margin: 0px auto 0px auto;\n  }\n}\n@media (max-width: 480px) {\n    .experience {\n      width: 75vw;\n      font-size: 16px;\n    }\n}\n", ""]);
 
 // exports
 
@@ -634,7 +637,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/skills/skills.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"col\">\n  <h2 class=\"header\">Skills</h2>\n  <hr class=\"container\">\n</div>\n<div class=\"gridwrapper\">\n  <div *ngFor=\"let skill of skills\" class=\"card\">\n    <h1 class=\"group\">{{skill.name}}</h1>\n    <div *ngFor=\"let group of skill.group\" class=\"skill\">\n      <img src=\"{{group.img}}\">\n      <div class=\"skillname\">{{group.skill}}</div>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<div class=\"col\">\n  <h2 class=\"header\">Skills</h2>\n  <hr class=\"container\">\n</div>\n<div class=\"gridwrapper\">\n  <div *ngFor=\"let skill of skills\" class=\"card\">\n    <h1 class=\"group\">{{skill.name}}</h1>\n    <div *ngFor=\"let group of skill.group\" class=\"skill\">\n      <img src=\"{{group.img}}\">\n      <div class=\"skillname\">{{group.skill}}\n         <div class=\"stars\">\n           <stars star={{group.stars}}></stars>\n         </div>\n       </div>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -676,6 +679,54 @@ SkillsComponent = __decorate([
 
 var _a;
 //# sourceMappingURL=skills.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/skills/stars.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return StarsComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var StarsComponent = (function () {
+    function StarsComponent() {
+    }
+    StarsComponent.prototype.ngOnInit = function () {
+        this.s = this.getStars();
+    };
+    StarsComponent.prototype.getStars = function () {
+        var s = "";
+        for (var i = 0; i < this.star; i++) {
+            s = s + "★";
+        }
+        return s;
+    };
+    return StarsComponent;
+}());
+__decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["E" /* Input */])(),
+    __metadata("design:type", Object)
+], StarsComponent.prototype, "star", void 0);
+StarsComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
+        selector: 'stars',
+        template: '<p> {{s}} </p>',
+        styles: ["\n    p {\n      margin: 0px;\n      padding: 0px;\n   }"
+        ],
+    })
+], StarsComponent);
+
+//# sourceMappingURL=stars.component.js.map
 
 /***/ }),
 
