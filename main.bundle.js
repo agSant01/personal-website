@@ -37,23 +37,82 @@ var ConstantsService = (function () {
             {
                 name: "University of Puerto Rico at Mayaguez",
                 bs: "Bachelor of Science in Computer Engineering",
-                graddate: "May 2020",
+                graddate: "May 2022",
                 courses: [
                     'Basic Programming (algorithms)',
                     "Advanced Programming (Java, object oriented)",
                     "Fundamentals of Computing",
-                    "Data Structures"
+                    "Data Structures",
+		    "Electric Systems Analisys I"
                 ],
-                gpa: "3.51"
+                gpa: "3.52"
             }
         ];
     };
     ConstantsService.prototype.getExperience = function () {
         return [
             {
+                work: "General Electric Company",
+                positions: ["Co-Op"],
+                date: "Fall 2018 - Spring 2019",
+                projects: [
+                    {
+                        name: null,
+                        positions: null,
+                        bullets: [
+                       	    "Optimized real-time information by creating tools for the explicit access of manufacturing information",
+			    "Designed a single automated flow of information and actions for sales order entry, manufacture planing, and inventory tracking",
+                            "Implemented tools to accelerate development cycle"
+                        ]
+                    }, 
+		    {
+                        name: "Product Catalog Parser",
+                        positions: null,
+                        bullets: [
+                            "With the product code list the necessary parts required to assemble the unit",
+                            "Updates current inventory in warehouse"
+                        ]
+                    },
+		    {
+                        name: "Manufacture Planner Algorithm",
+                        positions: null,
+                        bullets: [
+                            "Efficient order of manufacturing to avoid bottlenecks in the production line",
+                            "Data Mining of historical data to feed into the algorithm"
+                        ]
+                    }
+                ]
+            },
+	    {
+                work: "MCS Healthcare Holdings, LLC",
+                positions: ["Co-Op"],
+                date: "Spring 2018 - Summer 2018",
+                projects: [
+                    {
+                        name: "Account Password Manager",
+                        positions: null,
+                        bullets: [
+                            "Angular, Flask server, SQL Servers, IBM’s AS400",
+                            "Employees can reset their account passwords for internal applications",
+                            "Designed to support multiple applications"
+                        ]
+                    },
+		    {
+                        name: "Audit Automation System",
+                        positions: null,
+                        bullets: [
+                            "Angular, Flask server, SQL Servers, IBM’s AS400",
+                            "Automated monthly security certification process",
+			    "Predetermined reports of application accounts privileges in a wide arrage of formats",
+			    "Customizable report generation"
+                        ]
+                    }
+                ]
+            },
+	    {
                 work: "Richport Solutions Inc.",
                 positions: ["Consultant", "Lead Android Developer"],
-                date: "July 2017 - Present",
+                date: "Summer 2017 - Spring 2018",
                 projects: [
                     {
                         name: "Marketing Uploader System",
@@ -68,8 +127,8 @@ var ConstantsService = (function () {
             },
             {
                 work: "Research Experience for Undergraduates - North Carolina State University",
-                positions: null,
-                date: "Jan 2017 - Present",
+                positions: ["Undegraduate Research Student"],
+                date: "Summer 2017",
                 projects: [
                     {
                         name: "Center for Educational Informatics",
@@ -85,7 +144,7 @@ var ConstantsService = (function () {
             {
                 work: "APP DEV Team Undergraduate Research",
                 positions: ["Lead Android Developer"],
-                date: "Aug 2016 - Present",
+                date: "Fall 2016 - Fall 2017",
                 projects: [
                     {
                         name: "IAP App Development Team",
@@ -101,7 +160,7 @@ var ConstantsService = (function () {
             {
                 work: "Artificial Intelligence Undergraduate Research",
                 positions: null,
-                date: "Jan 2017 - Present",
+                date: "Spring 2017 - Fall 2017",
                 projects: [
                     {
                         name: null,
