@@ -177,27 +177,32 @@ var ConstantsService = (function () {
     ConstantsService.prototype.getSkills = function () {
         return [
             {
-                name: "Android Development",
+                name: "Tools/Frameworks",
                 group: [
-                    {
-                        skill: "SQLite",
-                        img: "assets/skills/android_dev/sqlite.png",
+		    {
+                        skill: "Angular",
+                        img: "assets/skills/tools/angular.png",
                         stars: "3"
                     },
-                    {
-                        skill: "Fabric Analytics",
-                        img: "assets/skills/android_dev/fabric_analitics.png",
+		    {
+                        skill: "Flask",
+                        img: "assets/skills/tools/flask.png",
                         stars: "3"
                     },
-                    {
-                        skill: "User Xperience",
-                        img: "assets/skills/android_dev/ux-design.png",
-                        stars: "5"
-                    },
-                    {
-                        skill: "Android Studio",
-                        img: "assets/skills/android_dev/android_studio.png",
+		    {
+                        skill: "SQL Server",
+                        img: "assets/skills/tools/sqlserver.png",
                         stars: "4"
+                    },
+		    {
+                        skill: "JavaFX",
+                        img: "assets/skills/tools/javafx.png",
+                        stars: "3"
+                    },
+                    {
+                        skill: "Android Development",
+                        img: "assets/skills/android_dev/android_studio.png",
+                        stars: "2"
                     }
                 ]
             },
@@ -207,6 +212,11 @@ var ConstantsService = (function () {
                     {
                         skill: "Java",
                         img: "assets/skills/programming_lang/Java-logo.png",
+                        stars: "4"
+                    },
+		    {
+                        skill: "Python",
+                        img: "assets/skills/programming_lang/python.png",
                         stars: "4"
                     },
                     {
@@ -248,11 +258,6 @@ var ConstantsService = (function () {
                         skill: "Terminal",
                         img: "assets/skills/technical/terminal.png",
                         stars: "3"
-                    },
-                    {
-                        skill: "Firebase Cloud Services",
-                        img: "assets/skills/technical/firebase.ico",
-                        stars: "4"
                     },
                     {
                         skill: "Software Design",
