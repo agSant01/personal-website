@@ -3,7 +3,7 @@
   padding: 40px 0px 40px 0px;
   margin: 0px auto 0px auto;
   text-align: center;
-  background-color: #fffbf4;
+  background-color: white;
   vertical-align: top;
 }
 .card {
@@ -19,10 +19,10 @@
 .container {
   width: 60%;
   margin: 0px auto 0px auto;
-  border-color: #fffbf4
+  border-color: white;
 }
 .col {
-   background-color: #fffbf4;
+   background-color: white;
 }
 .img-wrapper {
   position: absolute;
@@ -61,7 +61,7 @@ h1.group {
 }
 h2.header {
   text-align: center;
-  background-color: #fffbf4;
+  background-color: white;
   font-family: 'Open Sans', sans-serif !important;
   margin: 0px;
   padding-top: 42px;

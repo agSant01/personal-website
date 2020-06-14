@@ -1,7 +1,7 @@
 .section {
   width: 100%;
   padding: 1px 0px 20px 0px;
-  background-color: #fffbf4;
+  background-color: white;
 }
 
 .school {
@@ -38,7 +38,7 @@
 }
 
 .col {
-   background-color: #fffbf4;
+   background-color: white;
 }
 
 h2.header {
@@ -47,7 +47,7 @@ h2.header {
   margin: 0px;
   padding-top: 42px;
   color: #696969;
-  background-color: #fffbf4;
+  background-color: white;
   font-size: 54px;
   font-weight: 100;
 }
@@ -72,7 +72,7 @@ li {
 .container {
   width: 60%;
   margin: 0px auto 0px auto;
-  border-color: #fffbf4
+  border-color: white;
 }
 
 @media (max-width: 1000px) {

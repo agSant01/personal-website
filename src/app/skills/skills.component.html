@@ -8,6 +8,9 @@
     <div *ngFor="let group of skill.group" class="skill">
       <img src="{{group.img}}">
       <div class="skillname">{{group.skill}}</div>
+      <div class="stars">
+        <stars star="{{group.stars}}"></stars>
+      </div>
     </div>
   </div>
 </div>

@@ -1,7 +1,7 @@
 .section {
   width: 100%;
   padding: 1px 0px 1px 0px;
-  background-color: #fffbf4;
+  background-color: white;
 }
 .courses {
   margin-top: 20px;
@@ -13,7 +13,7 @@
 }
 
 .col {
-  background-color: #fffbf4;
+  background-color: white;
 }
 .date {
   float: right;
@@ -78,7 +78,7 @@ li {
 .container {
   width: 60%;
   margin: 0px auto 0px auto;
-  border-color: #fffbf4
+  border-color: white;
 }
 
 @media (max-width: 1000px) {
